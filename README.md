@@ -9,10 +9,7 @@ NodeJS + ExpressJS + Vue3
 - [Installation](#installation)
 - [Backend Setup](#backend-setup)
 - [Frontend Setup](#frontend-setup)
-- [Database Seeding](#database-seeding)
-- [Running the Project](#running-the-project)
 - [API Endpoints](#api-endpoints)
-- [Notes](#notes)
 
 ---
 
