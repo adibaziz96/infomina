@@ -1,8 +1,8 @@
 # Infomina Member
 
 ## Login
-Email: admin@fitness.com  
-Password: admin123  
+Email: admin@example.com  
+Password: password123 
 
 ## Backend
 cd backend  
@@ -12,5 +12,6 @@ npm run dev
 
 ## Frontend
 cd frontend  
+cp .env.example .env
 npm install  
 npm run dev  

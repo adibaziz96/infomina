@@ -36,7 +36,7 @@ const PORT = process.env.PORT || 3000;
     await sequelize.sync();
     console.log('Database synced');
 
-    const DEFAULT_EMAIL = process.env.DEFAULT_ADMIN_EMAIL || 'adib@example.com';
+    const DEFAULT_EMAIL = process.env.DEFAULT_ADMIN_EMAIL || 'admin@example.com';
     const DEFAULT_PASSWORD = process.env.DEFAULT_ADMIN_PASSWORD || 'password123';
 
     const existing = await User.findOne({ where: { email: DEFAULT_EMAIL } });
